@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-sans: Outfit, sans-serif;
+  --font-serif: "Luxurious Script", sans-serif;
+  --font-mono: "Bentham", serif;
+
+  /* Colors - Burgundy */
+  --color-burgundy-500: rgba(205, 46, 31, 1);
+  --color-burgundy-400: rgba(118, 32, 44, 1);
+  --color-burgundy-300: rgba(220, 78, 95, 1);
+  --color-burgundy-200: rgba(176, 89, 101, 1);
+  --color-burgundy-100: rgba(194, 154, 160, 1);
+  --color-burgundy-50: rgba(225, 150, 150, 1);
+
+
+ 
+  /* Colors - Grey */
+  --color-logo-grey-500: rgba(93, 93, 93, 1);
+  --color-logo-grey-400: rgba(83, 83, 83, 1);
+  --color-menu-grey-400: rgba(66, 60, 60, 1);
+  
+  /* Colors - Bg */
+  --color-hero-gray-bg-500: rgba(245, 243, 243, 1);
+  --color-hero-gray-bg-400: rgba(230, 224, 224, 1);
+}
