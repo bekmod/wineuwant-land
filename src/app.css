@@ -24,4 +24,8 @@
   /* Colors - Bg */
   --color-hero-gray-bg-500: rgba(245, 243, 243, 1);
   --color-hero-gray-bg-400: rgba(230, 224, 224, 1);
+
+  /* Colors - Form */
+  --color-form-border-500: rgb(245, 244, 237);
+  --color-form-border-400: rgb(222, 221, 221);
 }
