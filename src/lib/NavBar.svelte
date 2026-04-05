@@ -1,6 +1,6 @@
 <script>
-  import menuIcon from '../assets/menu.svg';
-  import Logo from '../lib/Logo.svelte';
+  import menuIcon from '$lib/assets/menu.svg';
+  import Logo from '$lib/Logo.svelte';
 
   const navigation = [
     { name: 'Home', href: '/' },

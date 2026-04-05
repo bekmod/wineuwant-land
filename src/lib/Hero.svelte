@@ -1,7 +1,7 @@
 <script>
-  import HeroBg from '../assets/hero-bg.avif';
-  import Glasses from '../assets/glasses.webp';
-  import HeroFlower from '../assets/hero-flower.svg';
+  import HeroBg from '$lib/assets/hero-bg.avif';
+  import Glasses from '$lib/assets/glasses.webp';
+  import HeroFlower from '$lib/assets/hero-flower.svg';
 
   import NavBar from './NavBar.svelte';
 </script>

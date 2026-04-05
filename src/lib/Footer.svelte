@@ -1,8 +1,6 @@
 <script>
-  import { Link } from 'svelte-routing';
-
-  import Logo from '../lib/Logo.svelte';
-  import FlowerBG from '../assets/bg-flower.svg';
+  import Logo from '$lib/Logo.svelte';
+  import FlowerBG from '$lib/assets/bg-flower.svg';
 </script>
 
 <footer class="z-1 overflow-x-clip">
@@ -44,26 +42,23 @@
         <span class="font-semibold">WINEUWANT.COM</span> | JOY AND LIFE GO BEYOND THE GLASS
       </p>
       <div class="text-xs flex gap-8 justify-end font-medium text-burgundy-400">
-        <Link
-          to="/about-us"
-          class="hover:text-burgundy-300 transition duration-300 ease-in-out">ABOUT</Link
+        <a
+          href="/about-us"
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out">ABOUT</a
         >
-        <Link
-          to="/contact-us"
-          class="hover:text-burgundy-300 transition duration-300 ease-in-out"
-          >CONTACT</Link
+        <a
+          href="/contact-us"
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out">CONTACT</a
         >
-        <Link
-          to="/privacy"
-          class="hover:text-burgundy-300 transition duration-300 ease-in-out"
-          >PRIVACY</Link
+        <a
+          href="/privacy"
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out">PRIVACY</a
         >
-        <Link
-          to="/cookies"
-          class="hover:text-burgundy-300 transition duration-300 ease-in-out"
-          >COOKIES</Link
+        <a
+          href="/cookies"
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out">COOKIES</a
         >
-        <Link to="/terms" class="hover:text-burgundy-300">TERMS</Link>
+        <a href="/terms" class="hover:text-burgundy-300">TERMS</a>
       </div>
     </div>
   </div>

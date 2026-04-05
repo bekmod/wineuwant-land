@@ -1,5 +1,5 @@
 <script>
-  import MissionBg from '../assets/mission-bg.avif';
+  import MissionBg from '$lib/assets/mission-bg.avif';
 </script>
 
 <section class=" bg-white relative z-10 p-0">

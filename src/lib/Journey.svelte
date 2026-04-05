@@ -1,13 +1,13 @@
 <script>
-  import PlanIcon1 from '../assets/journey_icon_1.webp';
-  import PlanIcon2 from '../assets/journey_icon_2.webp';
-  import PlanIcon3 from '../assets/journey_icon_3.webp';
+  import PlanIcon1 from '$lib/assets/journey_icon_1.webp';
+  import PlanIcon2 from '$lib/assets/journey_icon_2.webp';
+  import PlanIcon3 from '$lib/assets/journey_icon_3.webp';
 
-  import GrapeIcon from '../assets/journey_grape.webp';
+  import GrapeIcon from '$lib/assets/journey_grape.webp';
 
-  import PlanImage1 from '../assets/journey_image_1.avif';
-  import PlanImage2 from '../assets/journey_image_2.avif';
-  import PlanImage3 from '../assets/journey_image_3.webp';
+  import PlanImage1 from '$lib/assets/journey_image_1.avif';
+  import PlanImage2 from '$lib/assets/journey_image_2.avif';
+  import PlanImage3 from '$lib/assets/journey_image_3.webp';
 
   const plans = [
     {

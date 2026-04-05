@@ -1,8 +1,8 @@
 <script>
-  import feature1Icon from '../assets/feature-1.svg';
-  import feature2Icon from '../assets/feature-2.svg';
-  import feature3Icon from '../assets/feature-3.svg';
-  import feature4Icon from '../assets/feature-4.svg';
+  import feature1Icon from '$lib/assets/feature-1.svg';
+  import feature2Icon from '$lib/assets/feature-2.svg';
+  import feature3Icon from '$lib/assets/feature-3.svg';
+  import feature4Icon from '$lib/assets/feature-4.svg';
 
   const feautures = [
     {
