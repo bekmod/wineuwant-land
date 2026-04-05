@@ -38,10 +38,10 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 w-full">
-      <p class="text-xs text-burgundy-500 font-medium">
+      <p class="text-sm text-burgundy-500 font-medium">
         <span class="font-semibold">WINEUWANT.COM</span> | JOY AND LIFE GO BEYOND THE GLASS
       </p>
-      <div class="text-xs flex gap-8 justify-end font-medium text-burgundy-400">
+      <div class="text-sm flex gap-8 justify-end font-medium text-burgundy-400">
         <a
           href="/about-us"
           class="hover:text-burgundy-300 transition duration-300 ease-in-out">ABOUT</a
