@@ -50,7 +50,14 @@
 </script>
 
 <section class="bg-linear-to-b from-hero-gray-bg-400/65 to-transparent relative z-10">
-  <div class="container mx-auto px-8 py-24">
+  <div class="container relative mx-auto px-8 py-24">
+    <div
+      class="absolute top-48 -right-48 bg-burgundy-500/10 h-96 w-96 blur-3xl -z-10"
+    ></div>
+    <div
+      class="absolute top-48 -left-48 bg-burgundy-500/10 h-96 w-96 blur-3xl -z-10"
+    ></div>
+
     <!-- Section Heading -->
     <div class="flex flex-col items-center justify-start">
       <img src={GrapeIcon} alt="Journey Icon" class="w-32 h-32 mb-4" />
