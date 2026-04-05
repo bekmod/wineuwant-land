@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",
+    "svelte-routing": "^2.13.0",
     "tailwindcss": "^4.2.2"
   }
 }

@@ -1,4 +1,6 @@
 <script>
+  import { Link } from 'svelte-routing';
+
   import Logo from '../lib/Logo.svelte';
   import FlowerBG from '../assets/bg-flower.svg';
 </script>
@@ -42,19 +44,26 @@
         <span class="font-semibold">WINEUWANT.COM</span> | JOY AND LIFE GO BEYOND THE GLASS
       </p>
       <div class="text-xs flex gap-8 justify-end font-medium text-burgundy-400">
-        <a href="/" class="hover:text-burgundy-300 transition duration-300 ease-in-out"
-          >ABOUT</a
+        <Link
+          to="/about-us"
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out">ABOUT</Link
         >
-        <a href="/" class="hover:text-burgundy-300 transition duration-300 ease-in-out"
-          >CONTACT</a
+        <Link
+          to="/contact-us"
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out"
+          >CONTACT</Link
         >
-        <a href="/" class="hover:text-burgundy-300 transition duration-300 ease-in-out"
-          >PRIVACY</a
+        <Link
+          to="/privacy"
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out"
+          >PRIVACY</Link
         >
-        <a href="/" class="hover:text-burgundy-300 transition duration-300 ease-in-out"
-          >COOKIES</a
+        <Link
+          to="/cookies"
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out"
+          >COOKIES</Link
         >
-        <a href="/" class="hover:text-burgundy-300">TERMS</a>
+        <Link to="/terms" class="hover:text-burgundy-300">TERMS</Link>
       </div>
     </div>
   </div>

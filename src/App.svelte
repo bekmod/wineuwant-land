@@ -1,13 +1,21 @@
 <script>
-  import Hero from './lib/Hero.svelte';
-  import Footer from './lib/Footer.svelte';
-  import Features from './lib/Features.svelte';
-  import Mission from './lib/Mission.svelte';
-  import Journey from './lib/Journey.svelte';
+  import { Router, Route } from 'svelte-routing';
+
+  import Home from './routes/home/Home.svelte';
+  import AboutUs from './routes/about/About.svelte';
+  import ContactUs from './routes/contactus/Contact.svelte';
+
+  export let url = '';
 </script>
 
-<Hero />
-<Features />
-<Mission />
-<Journey />
-<Footer />
+<Router {url}>
+  <Route path="/">
+    <Home />
+  </Route>
+  <Route path="/about-us">
+    <AboutUs />
+  </Route>
+  <Route path="/contact-us">
+    <ContactUs />
+  </Route>
+</Router>
