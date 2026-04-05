@@ -58,7 +58,7 @@
             {#each feautures as feature}
                 <div class="flex flex-col gap-2 p-6 rounded-3xl {feature.color} transition group duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 hover:scale-102">
                     
-                    <div class="w-14 h-14 mb-4 rounded-xl p-1 border border-white/0 transition-all duration-300 group-hover:border group-hover:border-white/50 group-hover:bg-white/10 group-hover:shadow-lg flex items-center justify-center    ">
+                    <div class="w-14 h-14 mb-4 rounded-xl p-1 border border-white/20 transition-all duration-300 group-hover:border group-hover:border-white/50 group-hover:bg-white/10 group-hover:shadow-lg flex items-center justify-center    ">
                         <div class="w-8 h-8 overflow-hidden transition-transform duration-300 group-hover:scale-110">
                             <img src="{feature.icon}" alt="Client avatar" class="w-full h-full object-cover">
                         </div>

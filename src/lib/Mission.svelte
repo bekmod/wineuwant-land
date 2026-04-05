@@ -3,7 +3,7 @@
 </script>
 
 <section class=" bg-white relative z-10 p-0">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-16 2xl:container 2xl:md-auto">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-16 xl:container xl:mx-auto">
         <!-- Left Column: Mission Image -->
         <div class="col-span-1 md:col-span-2">
             <div 
