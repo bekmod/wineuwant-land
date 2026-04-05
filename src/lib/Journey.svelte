@@ -49,7 +49,9 @@
   ];
 </script>
 
-<section class="bg-linear-to-b from-hero-gray-bg-400/65 to-transparent relative z-10">
+<section
+  class="bg-linear-to-b from-hero-gray-bg-400/65 to-transparent relative z-10 overflow-x-clip"
+>
   <div class="container relative mx-auto px-8 py-24">
     <div
       class="absolute top-48 -right-48 bg-burgundy-500/10 h-96 w-96 blur-3xl -z-10"
@@ -66,8 +68,8 @@
         <span class="font-bold">Journey</span>
       </h2>
       <p class="mb-12 text-burgundy-300 text-center text-xl">
-        Every level is designed to bring you closer <br /> to the wines and experiences you’ll
-        love.
+        Every level is designed to bring you closer <br /> to the wines and experiences
+        you’ll love.
       </p>
     </div>
 
@@ -96,9 +98,13 @@
             Wine <span class="font-bold">{plan.name}</span>
           </h3>
           <p class="text-white text-lg font-medium mb-4">{plan.tag}</p>
-          <p class="text-white text-sm font-light mb-4">{plan.description_p1}</p>
+          <p class="text-white text-sm font-light mb-4">
+            {plan.description_p1}
+          </p>
           {#if plan.description_p2.length > 0}
-            <p class="text-white text-sm font-semibold">{plan.description_p2}</p>
+            <p class="text-white text-sm font-semibold">
+              {plan.description_p2}
+            </p>
           {/if}
           <p class="text-white text-sm font-light">{plan.description_p3}</p>
         </div>

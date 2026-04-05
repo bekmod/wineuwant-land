@@ -1,15 +1,11 @@
 <script>
   import menuIcon from '$lib/assets/menu.svg';
   import Logo from '$lib/Logo.svelte';
-
-  const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/spektra' },
-    { name: 'Contact us', href: '/mvp' },
-  ];
 </script>
 
-<div class="container relative z-10 flex justify-between align-center mx-auto py-4 px-8">
+<div
+  class="container relative z-10 flex justify-between align-center mx-auto py-4 px-8"
+>
   <div class="flex align-center justify-start my-auto gap-2 flex-1">
     <img src={menuIcon} alt="menu" />
     <p class="h-full text-base font-medium text-menu-grey-400">MENU</p>
@@ -18,7 +14,8 @@
   <Logo />
 
   <div class="flex align-center justify-end flex-1 my-auto">
-    <button
+    <a
+      href="/contact-us"
       aria-label="Contact us"
       class="group bg-white shadow-lg hover:shadow-xl cursor-pointer transition duration-300 ease-in-out h-16 w-16 rounded-full flex items-center justify-center text-menu-grey-400 hover:text-burgundy-500"
     >
@@ -43,6 +40,6 @@
           stroke-linejoin="round"
         />
       </svg>
-    </button>
+    </a>
   </div>
 </div>
