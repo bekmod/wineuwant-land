@@ -12,7 +12,8 @@
 
 <section>
   <div class="container mx-auto py-24 px-8">
-    <h2 class="text-center text-3xl text-burgundy-400">Cookies Policy</h2>
+    <h2 class="text-center text-3xl text-burgundy-400 mb-8">Cookies Policy</h2>
+    <p class="text-center">Currently under development</p>
   </div>
 </section>
 
