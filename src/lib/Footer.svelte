@@ -3,6 +3,7 @@
   import FlowerReveal from '$lib/FlowerReveal.svelte';
   import Logo from '$lib/Logo.svelte';
   import FlowerBG from '$lib/assets/bg-flower.svg';
+  import { isServicesModalOpen } from '$lib/modalStore';
 </script>
 
 <footer class="z-1 overflow-x-clip">
@@ -11,13 +12,13 @@
   >
     <FlowerReveal
       delay={400}
-      class="absolute -top-56 -right-92 w-156 -z-10 pointer-events-none"
+      class="absolute -top-56 -right-92 w-lg md:w-156 -z-10 pointer-events-none"
     >
       <img src={FlowerBG} alt="" class="w-full h-full opacity-7" />
     </FlowerReveal>
     <FlowerReveal
       delay={800}
-      class="absolute -top-56 -left-92 w-156 -z-10 pointer-events-none"
+      class="absolute -top-56 -left-92 w-lg md:w-156 -z-10 pointer-events-none"
     >
       <img src={FlowerBG} alt="" class="w-full h-full opacity-7" />
     </FlowerReveal>
@@ -37,10 +38,12 @@
     <Reveal delay={200} class="w-full max-w-lg mb-20">
       <div class="flex flex-col md:flex-row gap-4 justify-center">
         <button
+          onclick={() => $isServicesModalOpen = true}
           class="bg-burgundy-400 hover:bg-burgundy-400/90 shadow-md hover:shadow-lg transision duration-300 ease-in-out text-white text-sm px-6 py-4 rounded-full min-w-56 cursor-pointer"
           >WINE RECOMMENDATIONS</button
         >
         <button
+          onclick={() => $isServicesModalOpen = true}
           class="bg-burgundy-300 hover:bg-burgundy-300/90 shadow-md hover:shadow-lg transision duration-300 ease-in-out text-white text-sm px-6 py-4 rounded-full min-w-56 cursor-pointer"
           >WINE EXPERIENCES</button
         >
