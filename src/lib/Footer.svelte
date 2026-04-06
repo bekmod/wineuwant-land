@@ -5,7 +5,7 @@
 
 <footer class="z-1 overflow-x-clip">
   <div
-    class="container relative flex flex-col justify-between items-center mx-auto px-4 py-8"
+    class="container relative flex flex-col justify-between items-center mx-auto px-8 py-8"
   >
     <img
       src={FlowerBG}
@@ -38,11 +38,13 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
-      <p class="text-sm text-burgundy-500 font-medium">
-        <span class="font-semibold">WINEUWANT.COM</span> | JOY AND LIFE GO BEYOND
-        THE GLASS
+      <p class="text-sm text-burgundy-500 font-medium text-center md:text-left">
+        <span class="font-semibold">WINEUWANT.COM</span> <br />JOY AND LIFE GO
+        BEYOND THE GLASS
       </p>
-      <div class="text-sm flex gap-8 justify-end font-medium text-burgundy-400">
+      <div
+        class="text-sm flex flex-col md:flex-row gap-8 justify-center items-center md:justify-end font-medium text-burgundy-400"
+      >
         <a
           href="/about-us"
           class="hover:text-burgundy-300 transition duration-300 ease-in-out"
