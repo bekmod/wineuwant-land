@@ -26,7 +26,7 @@
       Endless ways to experience it.
     </p>
 
-    <div class="flex gap-4 justify-center mb-20">
+    <div class="flex flex-col md:flex-row gap-4 justify-center mb-20">
       <button
         class="bg-burgundy-400 hover:bg-burgundy-400/90 shadow-md hover:shadow-lg transision duration-300 ease-in-out text-white text-xs px-6 py-4 rounded-full min-w-56 cursor-pointer"
         >WINE RECOMMENDATIONS</button
@@ -37,26 +37,31 @@
       >
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 w-full">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
       <p class="text-sm text-burgundy-500 font-medium">
-        <span class="font-semibold">WINEUWANT.COM</span> | JOY AND LIFE GO BEYOND THE GLASS
+        <span class="font-semibold">WINEUWANT.COM</span> | JOY AND LIFE GO BEYOND
+        THE GLASS
       </p>
       <div class="text-sm flex gap-8 justify-end font-medium text-burgundy-400">
         <a
           href="/about-us"
-          class="hover:text-burgundy-300 transition duration-300 ease-in-out">ABOUT</a
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out"
+          >ABOUT</a
         >
         <a
           href="/contact-us"
-          class="hover:text-burgundy-300 transition duration-300 ease-in-out">CONTACT</a
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out"
+          >CONTACT</a
         >
         <a
           href="/privacy"
-          class="hover:text-burgundy-300 transition duration-300 ease-in-out">PRIVACY</a
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out"
+          >PRIVACY</a
         >
         <a
           href="/cookies"
-          class="hover:text-burgundy-300 transition duration-300 ease-in-out">COOKIES</a
+          class="hover:text-burgundy-300 transition duration-300 ease-in-out"
+          >COOKIES</a
         >
         <a href="/terms" class="hover:text-burgundy-300">TERMS</a>
       </div>

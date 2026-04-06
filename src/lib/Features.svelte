@@ -36,25 +36,29 @@
   ];
 </script>
 
-<section class="py-24 bg-linear-46 from-transparent to-hero-gray-bg-400/75 relative z-10">
+<section
+  class="py-24 bg-linear-46 from-transparent to-hero-gray-bg-400/75 relative z-10"
+>
   <div class=" container mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-16">
     <!-- Left: Feature Copy -->
-    <div class="flex flex-col justify-center px-8">
-      <h2 class="text-3xl text-burgundy-400 mb-12">
+    <div class="flex flex-col justify-center px-0 md:px-8">
+      <h2 class="text-3xl text-burgundy-400 mb-12 text-center md:text-left">
         Wine Discovery, <br />
         <span class="font-bold">Reimagined.</span>
       </h2>
 
-      <p class="mb-4 font-medium text-burgundy-300 uppercase">
+      <p
+        class="mb-4 font-medium text-burgundy-300 uppercase text-center md:text-left"
+      >
         FROM PERSONALIZED RECOMMENDATIONS <br /> TO UNFORGETTABLE EXPERIENCES
       </p>
 
-      <p class="text-logo-grey-400">
-        <span class="font-bold">WineUWant</span> connects you with exceptional Canadian VQA
-        wines and the moments that make them memorable. We make discovery simple, personal,
-        and deeply rooted in the wineries, regions, and experiences that bring each bottle
-        to life. Whether you’re new to wine or deepening your passion, we’ll help you find
-        exactly what you love, and where to enjoy it.
+      <p class="text-logo-grey-400 text-center md:text-left">
+        <span class="font-bold">WineUWant</span> connects you with exceptional Canadian
+        VQA wines and the moments that make them memorable. We make discovery simple,
+        personal, and deeply rooted in the wineries, regions, and experiences that
+        bring each bottle to life. Whether you’re new to wine or deepening your passion,
+        we’ll help you find exactly what you love, and where to enjoy it.
       </p>
     </div>
 

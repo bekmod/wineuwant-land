@@ -82,7 +82,7 @@
 
 {#if isMenuOpen}
   <div
-    class="fixed inset-0 z-40 bg-white/95 backdrop-blur-md flex flex-col items-center max-w-svh justify-center"
+    class="fixed inset-0 z-40 bg-white/95 backdrop-blur-md flex flex-col items-center justify-center"
     transition:fade={{ duration: 300 }}
   >
     <nav class="flex flex-col gap-8 text-center">

@@ -27,24 +27,26 @@
       <div
         class="absolute top-0 left-0 -z-15 rounded-full bg-hero-gray-bg-500 h-128 w-lg blur-3xl opacity-75"
       ></div>
-      <h1 class="text-burgundy-500 text-3xl mb-4 pl-2">
+      <h1 class="text-burgundy-500 text-3xl text-center md:text-left mb-4 pl-0">
         “The best wine is the one you can’t put it down because it fulfills your
         passion and touches your soul in an unspeakable way.”
       </h1>
-      <p class="text-burgundy-400 font-medium mb-8 pl-2">
+      <p
+        class="text-burgundy-400 font-medium text-center md:text-left mb-8 pl-0 m"
+      >
         PAULA, FOUNDER OF WINEUWANT
       </p>
-      <p class="text-burgundy-400 mb-8 text-center">
+      <p class="text-burgundy-400 mb-8 text-center md:text-left">
         We are here to help find you the perfect wine recommendation, and your
         perfect winery, tasting, or event experience.
       </p>
       <div class="flex flex-col md:flex-row gap-4 justify-center">
         <button
-          class="bg-burgundy-400 hover:bg-burgundy-400/90 shadow-md hover:shadow-lg transision duration-300 ease-in-out text-white text-xs px-6 py-4 rounded-full flex-1 cursor-pointer"
+          class="bg-burgundy-400 hover:bg-burgundy-400/90 shadow-md hover:shadow-lg transision duration-300 ease-in-out text-white text-sm px-6 py-4 rounded-full flex-1 cursor-pointer"
           >WINE RECOMMENDATIONS</button
         >
         <button
-          class="bg-burgundy-300 hover:bg-burgundy-300/90 shadow-md hover:shadow-lg transision duration-300 ease-in-out text-white text-xs px-6 py-4 rounded-full flex-1 cursor-pointer"
+          class="bg-burgundy-300 hover:bg-burgundy-300/90 shadow-md hover:shadow-lg transision duration-300 ease-in-out text-white text-sm px-6 py-4 rounded-full flex-1 cursor-pointer"
           >WINE EXPERIENCES</button
         >
       </div>
@@ -52,7 +54,7 @@
 
     <div class="relative h-144 w-full overflow-y-clip">
       <div
-        class="absolute top-0 left-0 w-full h-[110%] bg-center bg-cover bg-no-repeat -scale-x-100"
+        class="absolute top-0 left-0 w-full h-[110%] bg-center bg-cover bg-no-repeat -scale-x-100 overflow-x-clip"
         style="background-image: url({Glasses});"
       ></div>
     </div>
