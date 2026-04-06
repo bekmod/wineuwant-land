@@ -38,12 +38,12 @@
     <Reveal delay={200} class="w-full max-w-lg mb-20">
       <div class="flex flex-col md:flex-row gap-4 justify-center">
         <button
-          onclick={() => $isServicesModalOpen = true}
+          onclick={() => ($isServicesModalOpen = true)}
           class="bg-burgundy-400 hover:bg-burgundy-400/90 shadow-md hover:shadow-lg transision duration-300 ease-in-out text-white text-sm px-6 py-4 rounded-full min-w-56 cursor-pointer"
           >WINE RECOMMENDATIONS</button
         >
         <button
-          onclick={() => $isServicesModalOpen = true}
+          onclick={() => ($isServicesModalOpen = true)}
           class="bg-burgundy-300 hover:bg-burgundy-300/90 shadow-md hover:shadow-lg transision duration-300 ease-in-out text-white text-sm px-6 py-4 rounded-full min-w-56 cursor-pointer"
           >WINE EXPERIENCES</button
         >
