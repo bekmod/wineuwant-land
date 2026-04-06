@@ -1,5 +1,6 @@
 <script>
   import Reveal from '$lib/Reveal.svelte';
+  import FlowerReveal from '$lib/FlowerReveal.svelte';
   import Logo from '$lib/Logo.svelte';
   import FlowerBG from '$lib/assets/bg-flower.svg';
 </script>
@@ -8,16 +9,18 @@
   <div
     class="container relative flex flex-col justify-between items-center mx-auto px-8 py-8"
   >
-    <img
-      src={FlowerBG}
-      alt=""
-      class="absolute -top-56 -right-92 w-156 -z-10 pointer-events-none opacity-7"
-    />
-    <img
-      src={FlowerBG}
-      alt=""
-      class="absolute -top-56 -left-92 w-156 -z-10 pointer-events-none opacity-7"
-    />
+    <FlowerReveal
+      delay={400}
+      class="absolute -top-56 -right-92 w-156 -z-10 pointer-events-none"
+    >
+      <img src={FlowerBG} alt="" class="w-full h-full opacity-7" />
+    </FlowerReveal>
+    <FlowerReveal
+      delay={800}
+      class="absolute -top-56 -left-92 w-156 -z-10 pointer-events-none"
+    >
+      <img src={FlowerBG} alt="" class="w-full h-full opacity-7" />
+    </FlowerReveal>
 
     <Reveal delay={0}>
       <Logo />

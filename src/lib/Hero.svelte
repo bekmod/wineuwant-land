@@ -1,5 +1,6 @@
 <script>
   import Reveal from '$lib/Reveal.svelte';
+  import FlowerReveal from '$lib/FlowerReveal.svelte';
   import HeroBg from '$lib/assets/hero-bg.avif';
   import Glasses from '$lib/assets/glasses.webp';
   import HeroFlower from '$lib/assets/hero-flower.svg';
@@ -19,11 +20,12 @@
     class="container grid grid-cols-1 md:grid-cols-2 justify-between align-center mx-auto px-0 md:px-8"
   >
     <div class="flex flex-col px-8 justify-center relative z-0">
-      <img
-        src={HeroFlower}
-        alt=""
+      <FlowerReveal
+        delay={500}
         class="absolute -top-48 -left-80 h-149 w-149 -z-10 pointer-events-none"
-      />
+      >
+        <img src={HeroFlower} alt="" class="w-full h-full" />
+      </FlowerReveal>
 
       <div
         class="absolute top-0 left-0 -z-15 rounded-full bg-hero-gray-bg-500 h-128 w-lg blur-3xl opacity-75"
