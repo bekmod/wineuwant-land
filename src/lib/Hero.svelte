@@ -27,7 +27,9 @@
       <div
         class="absolute top-0 left-0 -z-15 rounded-full bg-hero-gray-bg-500 h-128 w-lg blur-3xl opacity-75"
       ></div>
-      <h1 class="text-burgundy-500 text-3xl text-center md:text-left mb-4 pl-0">
+      <h1
+        class="text-burgundy-500 text-3xl text-center mt-16 md:mt-0 md:text-left mb-4 pl-0"
+      >
         “The best wine is the one you can’t put it down because it fulfills your
         passion and touches your soul in an unspeakable way.”
       </h1>

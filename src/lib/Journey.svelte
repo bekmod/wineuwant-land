@@ -74,7 +74,9 @@
     </div>
 
     <!-- Plans Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 auto-rows-fr gap-4 px-8">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 auto-rows-fr gap-4 px-0 md:px-8"
+    >
       {#each plans as plan}
         <!-- Plan Card -->
         <div

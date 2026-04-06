@@ -14,12 +14,12 @@
 
     <!-- Right column: Mission Copy -->
     <div class="flex flex-col justify-center py-24 px-8">
-      <h2 class="text-3xl text-burgundy-400 mb-6">
+      <h2 class="text-3xl text-burgundy-400 mb-6 text-center md:text-left">
         Our
         <span class="font-bold">Mission</span>
       </h2>
 
-      <p class="text-logo-grey-400">
+      <p class="text-logo-grey-400 text-center md:text-left">
         Niagara is one of the world’s most stunning wine regions, and one of its
         best-kept secrets. Nestled between two great lakes, just moments from
         the US border, its vineyards produce world-class wines that are finally
