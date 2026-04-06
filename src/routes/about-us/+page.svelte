@@ -4,8 +4,10 @@
   import Roots from '$lib/Roots.svelte';
 </script>
 
+<svelte:head>
+  <title>About Us | WineUWant</title>
+</svelte:head>
+
 <NavBar />
-
 <Roots />
-
 <Footer />

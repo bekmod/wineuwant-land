@@ -6,6 +6,10 @@
 
 <NavBar />
 
+<svelte:head>
+  <title>Terms of Use | WineUWant</title>
+</svelte:head>
+
 <section>
   <div class="container mx-auto py-24 px-8">
     <h2 class="text-center text-3xl text-burgundy-400">Terms of Use</h2>

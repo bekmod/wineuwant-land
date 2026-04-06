@@ -6,6 +6,10 @@
   import Journey from '$lib/Journey.svelte';
 </script>
 
+<svelte:head>
+  <title>WineUWant | Discover & Experience Canadian VQA Wines</title>
+</svelte:head>
+
 <Hero />
 <Features />
 <Mission />
