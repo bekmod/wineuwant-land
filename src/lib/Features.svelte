@@ -38,7 +38,7 @@
 </script>
 
 <section
-  class="py-24 bg-linear-46 from-transparent to-hero-gray-bg-400/75 relative z-10"
+  class="py-24 bg-linear-46 from-transparent to-hero-gray-bg-400/75 relative z-10 overflow-x-clip"
 >
   <div class=" container mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-16">
     <!-- Left: Feature Copy -->
@@ -68,7 +68,7 @@
       {#each feautures as feature, index}
         <Reveal delay={index * 150} class="flex h-full w-full">
           <div
-            class="flex flex-col gap-2 p-6 rounded-3xl items-center md:items-start justify-center md:justify-start {feature.color} w-full transition group duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 hover:scale-102"
+            class="flex flex-col h-full gap-2 p-6 rounded-3xl items-center md:items-start justify-center md:justify-start {feature.color} w-full transition group duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 hover:scale-102"
           >
             <div
               class="w-14 h-14 mb-4 rounded-xl p-1 border border-white/20 transition-all duration-300 group-hover:border group-hover:border-white/50 group-hover:bg-white/10 group-hover:shadow-lg flex items-center justify-center"

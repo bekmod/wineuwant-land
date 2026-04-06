@@ -3,7 +3,7 @@
   import MissionBg from '$lib/assets/mission-bg.avif';
 </script>
 
-<section class=" bg-white relative z-10 p-0">
+<section class=" bg-white relative z-10 p-0 overflow-x-clip">
   <div
     class="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-16 2xl:container 2xl:mx-auto"
   >
@@ -11,7 +11,7 @@
     <div class="col-span-1 md:col-span-2">
       <Reveal delay={0} class="h-full w-full">
         <div
-          class="h-full -translate-x-[10%] bg-center bg-cover bg-no-repeat w-[110%] min-h-[300px]"
+          class="h-full bg-center bg-cover bg-no-repeat min-h-[300px]"
           style="background-image: url({MissionBg});"
         ></div>
       </Reveal>

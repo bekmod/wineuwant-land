@@ -7,7 +7,7 @@
   import NavBar from './NavBar.svelte';
 </script>
 
-<section class="relative z-50 bg-[#fcfcfc]">
+<section class="relative z-50 bg-[#fcfcfc] overflow-x-clip">
   <div
     class="absolute inset-0 -z-20 opacity-20 bg-top bg-cover bg-no-repeat"
     style="background-image: url({HeroBg});"
