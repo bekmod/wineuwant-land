@@ -11,7 +11,7 @@
     <div class="col-span-1 md:col-span-2">
       <Reveal delay={0} class="h-full w-full">
         <div
-          class="h-full -translate-x-[20%] bg-center bg-cover bg-no-repeat w-[120%] min-h-75"
+          class="h-full -translate-x-[20%] hidden md:block bg-center bg-cover bg-no-repeat w-[120%] min-h-75"
           style="background-image: url({MissionBg});"
         ></div>
       </Reveal>

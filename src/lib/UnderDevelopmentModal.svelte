@@ -11,7 +11,7 @@
   <!-- svelte-ignore a11y_click_events_have_key_events -->
   <!-- svelte-ignore a11y_no_static_element_interactions -->
   <div
-    class="fixed inset-0 z-[150] flex items-center justify-center bg-black/40 backdrop-blur-sm px-4"
+    class="fixed inset-0 z-150 flex items-center justify-center bg-black/40 backdrop-blur-sm px-4"
     transition:fade={{ duration: 300 }}
     onclick={close}
   >
