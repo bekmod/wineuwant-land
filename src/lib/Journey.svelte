@@ -1,4 +1,5 @@
 <script>
+  import Reveal from '$lib/Reveal.svelte';
   import PlanIcon1 from '$lib/assets/journey_icon_1.webp';
   import PlanIcon2 from '$lib/assets/journey_icon_2.webp';
   import PlanIcon3 from '$lib/assets/journey_icon_3.webp';
@@ -77,55 +78,59 @@
     <div
       class="grid grid-cols-1 md:grid-cols-2 auto-rows-fr gap-4 px-0 md:px-8"
     >
-      {#each plans as plan}
-        <!-- Plan Card -->
-        <div
-          class="flex md:relative flex-col gap-2 p-8 rounded-3xl {plan.color} transition group duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 hover:scale-102 items-center md:items-start"
-        >
+      {#each plans as plan, index}
+        <Reveal delay={index * 200} class="flex h-full w-full">
+          <!-- Plan Card -->
           <div
-            class="w-24 h-24 md:w-32 md:h-32 md:absolute md:right-0 md:top-0 rounded-xl p-1 flex items-center justify-center"
+            class="flex w-full h-full md:relative flex-col gap-2 p-8 rounded-3xl {plan.color} transition group duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 hover:scale-102 items-center md:items-start"
           >
             <div
-              class="w-16 h-16 md:w-20 md:h-20 overflow-hidden transition-transform duration-300 group-hover:scale-110"
+              class="w-24 h-24 md:w-32 md:h-32 md:absolute md:right-0 md:top-0 rounded-xl p-1 flex items-center justify-center"
             >
-              <img
-                src={plan.icon}
-                alt="Client avatar"
-                class="w-full h-full object-cover"
-              />
+              <div
+                class="w-16 h-16 md:w-20 md:h-20 overflow-hidden transition-transform duration-300 group-hover:scale-110"
+              >
+                <img
+                  src={plan.icon}
+                  alt="Client avatar"
+                  class="w-full h-full object-cover"
+                />
+              </div>
             </div>
-          </div>
 
-          <h3 class=" text-4xl text-white mt-6">
-            Wine <span class="font-bold">{plan.name}</span>
-          </h3>
-          <p
-            class="text-white text-lg font-medium mb-4 text-center md:text-left"
-          >
-            {plan.tag}
-          </p>
-          <p
-            class="text-white text-sm font-light mb-4 text-center md:text-left"
-          >
-            {plan.description_p1}
-          </p>
-          {#if plan.description_p2.length > 0}
+            <h3 class=" text-4xl text-white mt-6">
+              Wine <span class="font-bold">{plan.name}</span>
+            </h3>
             <p
-              class="text-white text-sm font-semibold text-center md:text-left"
+              class="text-white text-lg font-medium mb-4 text-center md:text-left"
             >
-              {plan.description_p2}
+              {plan.tag}
             </p>
-          {/if}
-          <p class="text-white text-sm font-light text-center md:text-left">
-            {plan.description_p3}
-          </p>
-        </div>
+            <p
+              class="text-white text-sm font-light mb-4 text-center md:text-left"
+            >
+              {plan.description_p1}
+            </p>
+            {#if plan.description_p2.length > 0}
+              <p
+                class="text-white text-sm font-semibold text-center md:text-left"
+              >
+                {plan.description_p2}
+              </p>
+            {/if}
+            <p class="text-white text-sm font-light text-center md:text-left">
+              {plan.description_p3}
+            </p>
+          </div>
+        </Reveal>
 
-        <!-- Plan image -->
-        <div
-          class="rounded-3xl bg-center bg-cover hidden md:block"
-          style="background-image: url('{plan.image}');"
-        ></div>
+        <Reveal delay={index * 200 + 100} class="hidden md:flex h-full w-full">
+          <!-- Plan image -->
+          <div
+            class="rounded-3xl bg-center bg-cover h-full w-full"
+            style="background-image: url('{plan.image}');"
+          ></div>
+        </Reveal>
       {/each}
     </div>
   </div>

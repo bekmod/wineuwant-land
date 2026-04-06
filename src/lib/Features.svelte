@@ -1,4 +1,5 @@
 <script>
+  import Reveal from '$lib/Reveal.svelte';
   import feature1Icon from '$lib/assets/feature-1.svg';
   import feature2Icon from '$lib/assets/feature-2.svg';
   import feature3Icon from '$lib/assets/feature-3.svg';
@@ -64,33 +65,35 @@
 
     <!-- Right column: Feature Cards -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      {#each feautures as feature}
-        <div
-          class="flex flex-col gap-2 p-6 rounded-3xl items-center md:items-start justify-center md:justify-start {feature.color} transition group duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 hover:scale-102"
-        >
+      {#each feautures as feature, index}
+        <Reveal delay={index * 150} class="flex h-full w-full">
           <div
-            class="w-14 h-14 mb-4 rounded-xl p-1 border border-white/20 transition-all duration-300 group-hover:border group-hover:border-white/50 group-hover:bg-white/10 group-hover:shadow-lg flex items-center justify-center"
+            class="flex flex-col gap-2 p-6 rounded-3xl items-center md:items-start justify-center md:justify-start {feature.color} w-full transition group duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 hover:scale-102"
           >
             <div
-              class="w-8 h-8 overflow-hidden transition-transform duration-300 group-hover:scale-110"
+              class="w-14 h-14 mb-4 rounded-xl p-1 border border-white/20 transition-all duration-300 group-hover:border group-hover:border-white/50 group-hover:bg-white/10 group-hover:shadow-lg flex items-center justify-center"
             >
-              <img
-                src={feature.icon}
-                alt="Client avatar"
-                class="w-full h-full object-cover"
-              />
+              <div
+                class="w-8 h-8 overflow-hidden transition-transform duration-300 group-hover:scale-110"
+              >
+                <img
+                  src={feature.icon}
+                  alt="Client avatar"
+                  class="w-full h-full object-cover"
+                />
+              </div>
             </div>
-          </div>
 
-          <h3
-            class=" font-semibold text-white uppercase text-center md:text-left"
-          >
-            {feature.name}
-          </h3>
-          <p class="text-white text-sm font-light text-center md:text-left">
-            {feature.description}
-          </p>
-        </div>
+            <h3
+              class=" font-semibold text-white uppercase text-center md:text-left"
+            >
+              {feature.name}
+            </h3>
+            <p class="text-white text-sm font-light text-center md:text-left">
+              {feature.description}
+            </p>
+          </div>
+        </Reveal>
       {/each}
     </div>
   </div>
