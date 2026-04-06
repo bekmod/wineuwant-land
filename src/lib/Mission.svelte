@@ -3,7 +3,9 @@
 </script>
 
 <section class=" bg-white relative z-10 p-0">
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-16 2xl:container 2xl:mx-auto">
+  <div
+    class="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-16 2xl:container 2xl:mx-auto"
+  >
     <!-- Left Column: Mission Image -->
     <div class="col-span-1 md:col-span-2">
       <div
@@ -13,7 +15,7 @@
     </div>
 
     <!-- Right column: Mission Copy -->
-    <div class="flex flex-col justify-center py-24 px-8">
+    <div class="flex flex-col justify-center py-24 md:py-24 px-8">
       <h2 class="text-3xl text-burgundy-400 mb-6 text-center md:text-left">
         Our
         <span class="font-bold">Mission</span>

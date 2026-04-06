@@ -82,10 +82,13 @@
 
 {#if isMenuOpen}
   <div
-    class="fixed inset-0 z-40 bg-white/95 backdrop-blur-md flex flex-col items-center justify-center"
+    class="fixed inset-0 z-40 w-full h-full bg-white/95 backdrop-blur-md flex flex-col items-center justify-center"
     transition:fade={{ duration: 300 }}
   >
-    <nav class="flex flex-col gap-8 text-center">
+    <nav
+      class="flex flex-col w-full gap-8 text-center"
+      data-sveltekit-preload-data="hover"
+    >
       <a
         href="/"
         onclick={closeMenu}

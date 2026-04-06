@@ -80,13 +80,13 @@
       {#each plans as plan}
         <!-- Plan Card -->
         <div
-          class="flex relative flex-col gap-2 p-8 rounded-3xl {plan.color} transition group duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 hover:scale-102"
+          class="flex md:relative flex-col gap-2 p-8 rounded-3xl {plan.color} transition group duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 hover:scale-102 items-center md:items-start"
         >
           <div
-            class="w-32 h-32 absolute right-0 top-0 rounded-xl p-1 flex items-center justify-center"
+            class="w-24 h-24 md:w-32 md:h-32 md:absolute md:right-0 md:top-0 rounded-xl p-1 flex items-center justify-center"
           >
             <div
-              class="w-20 h-20 overflow-hidden transition-transform duration-300 group-hover:scale-110"
+              class="w-16 h-16 md:w-20 md:h-20 overflow-hidden transition-transform duration-300 group-hover:scale-110"
             >
               <img
                 src={plan.icon}
@@ -99,21 +99,31 @@
           <h3 class=" text-4xl text-white mt-6">
             Wine <span class="font-bold">{plan.name}</span>
           </h3>
-          <p class="text-white text-lg font-medium mb-4">{plan.tag}</p>
-          <p class="text-white text-sm font-light mb-4">
+          <p
+            class="text-white text-lg font-medium mb-4 text-center md:text-left"
+          >
+            {plan.tag}
+          </p>
+          <p
+            class="text-white text-sm font-light mb-4 text-center md:text-left"
+          >
             {plan.description_p1}
           </p>
           {#if plan.description_p2.length > 0}
-            <p class="text-white text-sm font-semibold">
+            <p
+              class="text-white text-sm font-semibold text-center md:text-left"
+            >
               {plan.description_p2}
             </p>
           {/if}
-          <p class="text-white text-sm font-light">{plan.description_p3}</p>
+          <p class="text-white text-sm font-light text-center md:text-left">
+            {plan.description_p3}
+          </p>
         </div>
 
         <!-- Plan image -->
         <div
-          class="rounded-3xl bg-center bg-cover"
+          class="rounded-3xl bg-center bg-cover hidden md:block"
           style="background-image: url('{plan.image}');"
         ></div>
       {/each}
