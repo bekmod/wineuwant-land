@@ -52,12 +52,12 @@
 
     <Reveal delay={300} class="w-full">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
-        <p
+        <div
           class="text-sm text-burgundy-500 font-medium text-center md:text-left"
         >
-          <span class="font-semibold">WINEUWANT.COM</span> <br />JOY AND LIFE GO
-          BEYOND THE GLASS
-        </p>
+          <a href="/" class="font-semibold">WINEUWANT.COM</a> <br />JOY AND LIFE
+          GO BEYOND THE GLASS
+        </div>
         <div
           class="text-sm flex flex-col md:flex-row gap-3 md:gap-8 justify-center items-center md:justify-end font-medium text-burgundy-400"
         >
@@ -81,7 +81,6 @@
             class="hover:text-burgundy-300 transition duration-300 ease-in-out"
             >COOKIES</a
           >
-          <a href="/terms" class="hover:text-burgundy-300">TERMS</a>
         </div>
       </div>
     </Reveal>

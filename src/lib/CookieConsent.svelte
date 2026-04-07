@@ -33,11 +33,12 @@
     >
       <div class="flex flex-col flex-1 text-center md:text-left gap-2">
         <h3 class="text-xl font-semibold text-burgundy-500">
-          We value your privacy
+          Please Confirm Your Age and Privacy Settings
         </h3>
         <p class="text-logo-grey-400 text-sm">
-          Right now we do not use cookies or collect any data. <br /> We only use
-          local storage to improve page load times and performance.
+          To use the service you need to be at least 19 years old. <br /> Right
+          now we do not use cookies or collect any data. <br /> We only use local
+          storage to improve page load times and performance.
         </p>
       </div>
 
@@ -52,7 +53,7 @@
           onclick={accept}
           class="bg-burgundy-400 hover:bg-burgundy-400/90 hover:shadow-sm transition duration-300 ease-in-out text-white font-medium text-sm px-6 py-3 sm:py-4 rounded-full cursor-pointer w-full sm:w-auto uppercase"
         >
-          Accept All
+          Confirm & Accept
         </button>
       </div>
     </div>

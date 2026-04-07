@@ -146,7 +146,7 @@
               ></textarea>
             </div>
 
-            <div
+            <!-- <div
               class="md:col-span-2 rounded-lg border border-neutral-200 bg-white/80 p-4 shadow-xs mb-4"
             >
               <p class="mb-3 block font-medium text-neutral-900">
@@ -189,7 +189,7 @@
                   >
                 </label>
               </div>
-            </div>
+            </div> -->
 
             <button
               type="submit"

@@ -21,10 +21,10 @@
       out:fly={{ y: 20, duration: 300 }}
       onclick={(e) => e.stopPropagation()}
     >
-      <h3 class="text-3xl font-semibold text-burgundy-500 mb-4">Coming Soon</h3>
+      <h3 class="text-3xl font-semibold text-burgundy-500 mb-4">Contact Us</h3>
       <p class="text-logo-grey-400 font-medium mb-8">
-        Our Wine Recommendations and Experiences services are currently under
-        development. Be the first to know when we release them by getting in
+        Our Wine Recommendations and Wine Experiences are within the WineUWant
+        platform. Be the first to know when we launch the platform by getting in
         touch with us!
       </p>
 
@@ -40,7 +40,7 @@
           onclick={close}
           class="bg-burgundy-400 hover:bg-burgundy-400/90 hover:shadow-sm hover:-translate-y-0.5 transition duration-300 ease-in-out text-white font-bold text-sm px-8 py-4 rounded-full cursor-pointer w-full sm:w-auto uppercase block content-center"
         >
-          Contact Us
+          Contact
         </a>
       </div>
     </div>
