@@ -13,7 +13,10 @@
 <section>
   <div class="container mx-auto py-24 px-8">
     <h2 class="text-center text-3xl text-burgundy-400 mb-8">Cookies Policy</h2>
-    <p class="text-center">Currently under development</p>
+    <p class="text-center">
+      Right now we do not use cookies or collect any data. <br /> We only use local
+      storage to save your preferences, improve page load times and performance.
+    </p>
   </div>
 </section>
 
