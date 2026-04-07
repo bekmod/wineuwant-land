@@ -116,6 +116,7 @@
                 id="email"
                 name="email"
                 type="email"
+                required
                 placeholder="you@example.com"
                 class="w-full rounded-lg border border-neutral-200 bg-white/80 px-3.5 py-2.5 pr-12 text-[15px] text-neutral-900 placeholder-neutral-400 shadow-xs focus:ring-4 focus:ring-neutral-900/5 focus:border-neutral-300 outline-none resize-y"
               />
@@ -145,20 +146,54 @@
               ></textarea>
             </div>
 
-            <div class="bg-form-border-500 rounded-lg p-4 md:col-span-2">
-              <p class="block mb-4 font-medium">
+            <div
+              class="md:col-span-2 rounded-lg border border-neutral-200 bg-white/80 p-4 shadow-xs"
+            >
+              <p class="mb-3 block font-medium text-neutral-900">
                 Are you 19 years of age or older?
               </p>
-              <input type="radio" name="age19" id="age-yes" value="yes" />
-              <label for="age-yes" class="mr-4 cursor-pointer">Yes</label>
+              <div class="flex items-center gap-6">
+                <label
+                  for="age-yes"
+                  class="flex items-center gap-2.5 cursor-pointer group"
+                >
+                  <input
+                    type="radio"
+                    name="age19"
+                    id="age-yes"
+                    value="yes"
+                    required
+                    class="size-4.5 cursor-pointer text-neutral-900 border-neutral-300 focus:ring-neutral-900/10 focus:ring-4 accent-burgundy-300"
+                  />
+                  <span
+                    class="text-[15px] text-neutral-800 group-hover:text-neutral-900 transition-colors"
+                    >Yes</span
+                  >
+                </label>
 
-              <input type="radio" name="age19" id="age-no" value="no" />
-              <label for="age-no" class="cursor-pointer">No</label>
+                <label
+                  for="age-no"
+                  class="flex items-center gap-2.5 cursor-pointer group"
+                >
+                  <input
+                    type="radio"
+                    name="age19"
+                    id="age-no"
+                    value="no"
+                    required
+                    class="size-4.5 cursor-pointer text-neutral-900 border-neutral-300 focus:ring-neutral-900/10 focus:ring-4 accent-burgundy-300"
+                  />
+                  <span
+                    class="text-[15px] text-neutral-800 group-hover:text-neutral-900 transition-colors"
+                    >No</span
+                  >
+                </label>
+              </div>
             </div>
 
             <button
               type="submit"
-              class="md:col-span-2 bg-burgundy-300 hover:bg-burgundy-300/90 shadow-md hover:shadow-lg transision duration-300 w-full ease-in-out text-white text-sm font-semibold px-24 py-4 rounded-xl cursor-pointer"
+              class="md:col-span-2 bg-burgundy-300 hover:bg-burgundy-300/90 shadow-md hover:shadow-lg transision duration-300 w-full ease-in-out text-white text-sm font-semibold px-24 py-4 rounded-full cursor-pointer"
             >
               SUBMIT
             </button>
