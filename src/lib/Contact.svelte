@@ -201,7 +201,7 @@
         </div>
       </div>
       <div
-        class="bg-center bg-cover rounded-lg"
+        class="bg-cover bg-right rounded-lg"
         style="background-image: url({ContactBG});"
       ></div>
     </div>
