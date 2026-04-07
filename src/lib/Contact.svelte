@@ -147,7 +147,7 @@
             </div>
 
             <div
-              class="md:col-span-2 rounded-lg border border-neutral-200 bg-white/80 p-4 shadow-xs"
+              class="md:col-span-2 rounded-lg border border-neutral-200 bg-white/80 p-4 shadow-xs mb-4"
             >
               <p class="mb-3 block font-medium text-neutral-900">
                 Are you 19 years of age or older?
@@ -193,7 +193,7 @@
 
             <button
               type="submit"
-              class="md:col-span-2 bg-burgundy-300 hover:bg-burgundy-300/90 shadow-md hover:shadow-lg transision duration-300 w-full ease-in-out text-white text-sm font-semibold px-24 py-4 rounded-full cursor-pointer"
+              class="md:col-span-2 bg-burgundy-300 hover:bg-burgundy-300/90 hover:shadow-sm hover:-translate-y-0.5 transition duration-300 ease-in-out text-white font-bold text-sm px-8 py-4 rounded-full cursor-pointer w-full sm:w-auto uppercase block content-center"
             >
               SUBMIT
             </button>
