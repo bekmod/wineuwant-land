@@ -128,12 +128,6 @@
         class="text-2xl md:text-3xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
         >COOKIES</a
       >
-      <a
-        href="/terms"
-        onclick={closeMenu}
-        class="text-2xl md:text-3xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
-        >TERMS</a
-      >
     </nav>
   </div>
 {/if}

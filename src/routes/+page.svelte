@@ -4,7 +4,6 @@
   import Features from '$lib/Features.svelte';
   import Mission from '$lib/Mission.svelte';
   import Journey from '$lib/Journey.svelte';
-  import CookieConsent from '$lib/CookieConsent.svelte';
 </script>
 
 <svelte:head>
@@ -16,4 +15,3 @@
 <Mission />
 <Journey />
 <Footer />
-<CookieConsent />
