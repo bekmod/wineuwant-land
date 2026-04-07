@@ -6,7 +6,7 @@
       class="text-2xl md:text-5xl font-light text-logo-grey-500 overflow-visible leading-normal"
     >
       <span
-        class="font-serif text-5xl md:text-8xl inline-block bg-linear-to-br from-[#E5D193] from-47% to-[#A38E4A] to-87% bg-clip-text text-transparent px-1 md:px-4 -ml-1 md:-ml-4 leading-tight"
+        class="font-serif text-5xl md:text-8xl inline-block bg-linear-to-br from-[#E5D193] from-47% to-[#A38E4A] to-87% bg-clip-text text-transparent px-1 md:px-2 -ml-1 md:-ml-4 leading-tight"
         >Wine</span
       >UWant
     </p>
