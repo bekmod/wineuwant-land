@@ -39,12 +39,12 @@
       <div class="flex flex-col md:flex-row gap-4 justify-center">
         <button
           onclick={() => ($isServicesModalOpen = true)}
-          class="bg-burgundy-400 hover:bg-burgundy-400/90 shadow-md hover:shadow-lg transition duration-300 ease-in-out text-white text-sm px-6 py-4 rounded-full min-w-56 cursor-pointer"
+          class="bg-burgundy-400 hover:bg-burgundy-400/90 hover:shadow-sm hover:-translate-y-0.5 transition duration-300 ease-in-out text-white font-bold text-sm px-8 py-4 rounded-full cursor-pointer w-full sm:w-auto uppercase block content-center"
           >WINE RECOMMENDATIONS</button
         >
         <button
           onclick={() => ($isServicesModalOpen = true)}
-          class="bg-burgundy-300 hover:bg-burgundy-300/90 shadow-md hover:shadow-lg transition duration-300 ease-in-out text-white text-sm px-6 py-4 rounded-full min-w-56 cursor-pointer"
+          class="bg-burgundy-300 hover:bg-burgundy-300/90 hover:shadow-sm hover:-translate-y-0.5 transition duration-300 ease-in-out text-white font-bold text-sm px-8 py-4 rounded-full cursor-pointer w-full sm:w-auto uppercase block content-center"
           >WINE EXPERIENCES</button
         >
       </div>
