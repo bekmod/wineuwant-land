@@ -35,8 +35,8 @@
         <h1
           class="text-burgundy-500 text-3xl text-center mt-16 md:mt-0 md:text-left mb-4 pl-0"
         >
-          “The best wine is the one you can’t put it down because it fulfills
-          your passion and touches your soul in an unspeakable way.”
+          “The best wine is the one you can’t put down because it fulfills your
+          passion and touches your soul in an unspeakable way.”
         </h1>
         <p
           class="text-burgundy-400 font-medium text-center md:text-left mb-8 pl-0 m"
