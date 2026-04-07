@@ -5,7 +5,7 @@
 <section class="bg-burgundy-300">
   <div class="container mx-auto px-8 py-16">
     <div
-      class="grid grid-cols-1 md:grid-cols-2 bg-white rounded-4xl p-0 md:px-16 md:py-16 md:gap-16"
+      class="grid grid-cols-1 md:grid-cols-2 bg-white rounded-4xl p-0 md:px-16 md:py-16 gap-0 md:gap-8"
     >
       <!-- Form grid -->
       <div class="border border-burgundy-100/20 rounded-xl">
