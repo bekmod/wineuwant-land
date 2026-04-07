@@ -101,37 +101,37 @@
       <a
         href="/"
         onclick={closeMenu}
-        class="text-4xl md:text-5xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
+        class="text-2xl md:text-3xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
         >HOME</a
       >
       <a
         href="/about-us"
         onclick={closeMenu}
-        class="text-4xl md:text-5xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
+        class="text-2xl md:text-3xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
         >ABOUT</a
       >
       <a
         href="/contact-us"
         onclick={closeMenu}
-        class="text-4xl md:text-5xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
+        class="text-2xl md:text-3xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
         >CONTACT</a
       >
       <a
         href="/privacy"
         onclick={closeMenu}
-        class="text-4xl md:text-5xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
+        class="text-2xl md:text-3xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
         >PRIVACY</a
       >
       <a
         href="/cookies"
         onclick={closeMenu}
-        class="text-4xl md:text-5xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
+        class="text-2xl md:text-3xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
         >COOKIES</a
       >
       <a
         href="/terms"
         onclick={closeMenu}
-        class="text-4xl md:text-5xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
+        class="text-2xl md:text-3xl font-medium text-burgundy-400 hover:text-burgundy-300 transition duration-300 ease-in-out"
         >TERMS</a
       >
     </nav>

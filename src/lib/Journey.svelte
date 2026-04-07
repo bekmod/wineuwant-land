@@ -69,7 +69,7 @@
         <span class="font-bold">Journey</span>
       </h2>
       <p class="mb-12 text-burgundy-300 text-center text-xl">
-        Every level is designed to bring you closer <br /> to the wines and experiences
+        Every level is designed to bring you closer to the wines and experiences
         you’ll love.
       </p>
     </div>

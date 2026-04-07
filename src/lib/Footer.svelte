@@ -59,7 +59,7 @@
           BEYOND THE GLASS
         </p>
         <div
-          class="text-sm flex flex-col md:flex-row gap-8 justify-center items-center md:justify-end font-medium text-burgundy-400"
+          class="text-sm flex flex-col md:flex-row gap-3 md:gap-8 justify-center items-center md:justify-end font-medium text-burgundy-400"
         >
           <a
             href="/about-us"
