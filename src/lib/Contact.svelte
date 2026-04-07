@@ -23,7 +23,7 @@
 
           <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-3">
             <a
-              href="mailto:team@example.com"
+              href="mailto:p.wineries@wineuwant.com"
               class="group inline-flex items-center gap-2 rounded-lg border border-neutral-200 bg-white px-3.5 py-2.5 text-[15px] text-neutral-800 hover:bg-neutral-50 hover:border-neutral-300 hover:outline hover:outline-1 hover:outline-neutral-900/10 transition-colors"
             >
               <svg
