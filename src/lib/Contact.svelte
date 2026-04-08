@@ -7,10 +7,10 @@
   <div class="container mx-auto px-2 md:px-8 py-16">
     <Reveal y={40} duration={800}>
       <div
-        class="grid grid-cols-1 md:grid-cols-2 bg-white rounded-4xl p-0 md:px-16 md:py-16 gap-0 md:gap-8"
+        class="grid grid-cols-1 md:grid-cols-2 bg-white rounded-4xl p-0 md:p-8 xl:p-16 gap-0 md:gap-4 xl:gap-16"
       >
         <!-- Form grid -->
-        <div class="border border-burgundy-100/20 rounded-xl">
+        <div class="border border-burgundy-100/20 rounded-2xl">
           <div class="p-8">
             <h2
               class="text-3xl text-burgundy-300 mb-6 text-center md:text-left"
