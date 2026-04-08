@@ -4,7 +4,7 @@
 </script>
 
 <section class="bg-burgundy-300">
-  <div class="container mx-auto px-8 py-16">
+  <div class="container mx-auto px-2 md:px-8 py-16">
     <Reveal y={40} duration={800}>
       <div
         class="grid grid-cols-1 md:grid-cols-2 bg-white rounded-4xl p-0 md:px-16 md:py-16 gap-0 md:gap-8"
@@ -25,7 +25,7 @@
               business day:
             </p>
 
-            <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div class="mt-6 grid grid-cols-1 xl:grid-cols-2 gap-3">
               <a
                 href="mailto:p.wineries@wineuwant.com"
                 class="group inline-flex items-center gap-2 rounded-lg border border-neutral-200 bg-white px-3.5 py-2.5 text-[15px] text-neutral-800 hover:bg-neutral-50 hover:border-neutral-300 hover:outline hover:outline-1 hover:outline-neutral-900/10 transition-colors"
@@ -81,7 +81,7 @@
             <div class="h-px bg-neutral-200 grow"></div>
           </div>
 
-          <div class="p-8">
+          <div class="p-6 md:p-8">
             <p class="text-burgundy-400 mb-4 text-center md:text-left">
               Leave a message. <br /> Tell us a little about yourself to begin your
               wine journey:
@@ -90,14 +90,9 @@
               name="contact"
               method="POST"
               data-netlify="true"
-              class="grid grid-cols-1 md:grid-cols-2 gap-3"
+              class="grid grid-cols-1 xl:grid-cols-2 gap-3"
             >
-              <input
-                type="hidden"
-                name="form-name"
-                value="contact"
-                class="md:col-span-2"
-              />
+              <input type="hidden" name="form-name" value="contact" />
 
               <div>
                 <label for="name" class="mb-1.5 block font-medium">Name</label>
@@ -123,7 +118,7 @@
                 />
               </div>
 
-              <div class="md:col-span-2">
+              <div class="col-span-1 xl:col-span-2">
                 <label for="city" class="block mb-1.5 font-medium">City</label>
                 <input
                   id="city"
@@ -134,7 +129,7 @@
                 />
               </div>
 
-              <div class="md:col-span-2">
+              <div class="col-span-1 xl:col-span-2">
                 <label for="message" class="block mb-1.5 font-medium"
                   >How we can help?</label
                 >
@@ -147,54 +142,9 @@
                 ></textarea>
               </div>
 
-              <!-- <div
-              class="md:col-span-2 rounded-lg border border-neutral-200 bg-white/80 p-4 shadow-xs mb-4"
-            >
-              <p class="mb-3 block font-medium text-neutral-900">
-                Are you 19 years of age or older?
-              </p>
-              <div class="flex items-center gap-6">
-                <label
-                  for="age-yes"
-                  class="flex items-center gap-2.5 cursor-pointer group"
-                >
-                  <input
-                    type="radio"
-                    name="age19"
-                    id="age-yes"
-                    value="yes"
-                    required
-                    class="size-4.5 cursor-pointer text-neutral-900 border-neutral-300 focus:ring-neutral-900/10 focus:ring-4 accent-burgundy-300"
-                  />
-                  <span
-                    class="text-[15px] text-neutral-800 group-hover:text-neutral-900 transition-colors"
-                    >Yes</span
-                  >
-                </label>
-
-                <label
-                  for="age-no"
-                  class="flex items-center gap-2.5 cursor-pointer group"
-                >
-                  <input
-                    type="radio"
-                    name="age19"
-                    id="age-no"
-                    value="no"
-                    required
-                    class="size-4.5 cursor-pointer text-neutral-900 border-neutral-300 focus:ring-neutral-900/10 focus:ring-4 accent-burgundy-300"
-                  />
-                  <span
-                    class="text-[15px] text-neutral-800 group-hover:text-neutral-900 transition-colors"
-                    >No</span
-                  >
-                </label>
-              </div>
-            </div> -->
-
               <button
                 type="submit"
-                class="md:col-span-2 bg-burgundy-300 hover:bg-burgundy-300/90 hover:shadow-sm hover:-translate-y-0.5 transition duration-300 ease-in-out text-white font-bold text-sm px-8 py-4 rounded-full cursor-pointer w-full sm:w-auto uppercase block content-center"
+                class="col-span-1 xl:col-span-2 bg-burgundy-300 hover:bg-burgundy-300/90 hover:shadow-sm hover:-translate-y-0.5 transition duration-300 ease-in-out text-white font-bold text-sm px-8 py-4 rounded-full cursor-pointer w-full sm:w-auto uppercase block content-center"
               >
                 SUBMIT
               </button>
